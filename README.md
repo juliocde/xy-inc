@@ -9,7 +9,7 @@ Foi criado um projeto utilizando o framework JERSEY para implementação do REST
   Utilizei o maven para empacotamento e dependências das bibliotecas (POM.xml).
   
 
-#Banco de Dados
+Banco de Dados:
 
 Utilizei Mysql com JDBC simples para persistir os dados trocados entre cliente e servidor.
 A classe Connect estão as configurações do banco.
