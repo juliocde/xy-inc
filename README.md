@@ -1,12 +1,12 @@
 # Teste Java
 
-Foram criados dois projetos utilizando o framework JERSEY para implementação do REST:
+Foi criado um projeto utilizando o framework JERSEY para implementação do REST:
 
-  1 - Projeto Client onde foram criados classes para testes REST (POST, GET, PUT, DELETE).
+  Classes Clients onde foram criados os metodos para testes REST (POST, GET, PUT, DELETE).
   
-  2 - Projeto Server onde ficara hospedado no servidor (usei Tomcat para testes) os serviços REST.
+  Utilizei o Tomcat para testes dos serviços REST.
   
-  Utilizei o maven para empacotamento e dependências das bibliotecas.
+  Utilizei o maven para empacotamento e dependências das bibliotecas (POM.xml).
   
 
 #Banco de Dados
@@ -22,7 +22,9 @@ CREATE TABLE products ( id INT PRIMARY KEY, name VARCHAR(30), description VARCHA
 
 
 
+Para rodar, deve-se importar o projeto com o maven e adicionar a aplicacão no Tomcat.
 
+Cada classe client contem um metodo main para teste de cada serviço REST (POST, GET, PUT, DELETE).
 
 
 
